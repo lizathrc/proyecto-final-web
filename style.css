@@ -1,0 +1,338 @@
+
+
+body{
+  background-color: #000;
+  font-family: 'Yuji Boku', serif;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+}
+h1{
+  color: #4b0f08;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 9rem;
+  font-weight: bold;
+  letter-spacing: .375rem;
+  margin-bottom: 3.125rem;
+  text-shadow: 0px -6px 0px #735c40;
+}
+h2{
+  color: #4b0f08;
+  text-shadow: 5px 0px 0px #595443;
+  text-align: center;
+}
+p{
+  font-size: 32px;
+  color: #735c40;
+}
+
+/*header start*/
+
+.index-h1::before,
+.index-h1::after {
+  background: #735c40;
+  content: "";
+  display: block;
+  height: .4375rem;
+  width: 76.1875rem;
+  margin-left: 26.125rem;
+}
+
+.index-h1 h1{
+  margin: .25rem;
+}
+ 
+.main-header{
+  margin-top: 21rem;
+}
+
+.index-img-box img{
+  border-radius: 14px;
+  border: solid 5px #595443;
+}
+
+.index-img-1 img{
+  height: 12.5rem;
+  margin-bottom: -10.75rem;
+  width: 30.875rem;
+}
+
+.index-img-2 img{
+  height: 30.875rem;
+  margin-left: 6.6875rem;
+  transform: rotate(90deg);
+  width: 12.5rem;
+  margin-top: 3.75rem;
+}
+
+.square{
+  background: #4b0f08;
+  height: 8.4375rem;
+  left: 46.6875em;
+  top: 19.4375em;
+  position: absolute;
+  width: 21.5rem;
+  z-index: -2;
+}
+
+.square-2{
+  left: 63em;
+  top: 43em
+}
+
+
+
+/*menu start*/
+.nav-container{
+  margin: 0 auto;
+  max-width: 850px;
+  transform: rotate(90deg);
+  width: 85%;
+  position: fixed;
+  right: -21rem;
+  top: 438px;
+}
+
+.nav-menu ul{
+  display: flex;
+  justify-content: space-between;
+  width: 372px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu ul li{
+  display: inline-block;
+}
+
+.nav-menu ul li a{
+  color: #0000;
+  display: block;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 25px;
+  letter-spacing: 10px;
+  padding: 0.5rem 1rem;
+  transition: 1.4s;
+  background: 
+    linear-gradient(90deg,#900000 50%,#735c40 0) 
+    var(--_p,100%)/200% no-repeat;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.nav-menu a:hover{
+  --_p: 0%;
+  font-size: 24px;
+}
+
+.home-icon{
+  color: #735c40;
+  transform: rotate(270deg);
+  font-size: 2.5rem;
+  padding-left: .75rem ;
+}
+
+
+
+/*profile starts*/
+
+.profile-container h2{
+  display: inline-block;
+  font-family: 'UnifrakturMaguntia', cursive;  font-size: 70px;
+  font-weight: normal;
+  max-width: 62.5rem;
+  padding: 20px;
+}
+
+.profile-container img, iframe{
+  border-color: #735c40;
+  border-style: double;
+  border-width: 10px;
+}
+
+.margin-box{
+  margin-bottom: 50px;
+}
+
+.proyects-img img, iframe{
+  max-width: 62.5rem;
+}
+
+.img2{
+  max-width: 36.1rem;
+}
+
+.img3{
+  max-width: 31rem;
+}
+
+.profile-container span{
+  color: #735c40;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 30px;
+  opacity: 92%;
+  width: 600px;
+}
+
+
+iframe{
+  margin-bottom: 30px;
+}
+ 
+/*curriculum html start*/
+
+.cl-box{
+  display: inline-flex;
+  width: 75rem;
+  text-align: left;
+  gap: 5rem;
+}
+
+.cl-box h2{
+  border: none;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 90px;
+  font-weight: normal;
+ 
+}
+
+.cl-box p{
+  font-size: 40px;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.cl-bg-box{
+  background: #4b0f08;
+  border-radius:20px;
+  opacity: 90%;
+  border-color: #595443;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.profile{
+  text-align: center;
+}
+
+/*contact me html start*/
+
+.contact-box{
+  color: #735c40;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 12.5rem;
+  margin-top: 10.625rem;
+  font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.contact-box h2{
+  display: flex;
+  font-family: 'Yuji Boku', serif;
+  justify-content: center;
+  text-shadow: none;
+}
+
+.contact-box span{
+  display: flex;
+  justify-content: center;
+}
+
+.form-container{
+  background-color: #4b0f08;
+  border-color: #595443;
+  border-radius: 7px;
+  border-style: solid;
+  border-width: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 18.75rem;
+  margin-right: 18.75rem;
+  padding: 30px;
+}
+.form-container label{
+  color: #735c40;
+}
+
+.form-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; 
+}
+
+.form-box button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 5px;
+  vertical-align: middle;
+
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.form-box button:hover, .form-box button:focus, .form-box button:active{
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.form-box input{
+  background-color: #3d0d07;
+  border-radius: 1.25rem;
+  border: none;
+  color: #735c40;
+  padding: 1.375rem;
+  font-size: 1.875rem;
+}
+
+
+form > label{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon {
+  color: #735c40;
+  font-size: 100px;
+}
+
+/*footer start*/
+
+footer{
+  color: #735c40;
+  background: #4b0f08;
+  margin-top: 300px;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 20px;
+  padding: 10px 0 10px;
+
+}
+
+.footer-phrase{
+  font-size: 40px;
+}
+
+.footer-cr p{
+  font-size: 20px;
+}
+
+.footer-cr a{
+  color: #735c40;
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}

@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: snow;
+	font-family: Poppins;
+	margin: 0;
+	padding: 0;
+}
+p{
+	font-size: 20px;
+}
+li{
+	list-style: none;
+	margin-right: 25px;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: black;
+}
+
+ul{
+	display: flex;
+}
+
+.headline {
+	text-align: center;
+	margin-top: 200px;	
+	color: black;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 0;
+	color: black;
+}
+
+h2{
+	font-size: 25px;
+	margin-bottom: 40px;
+	color: black;
+}
+
+a{
+	font-size: 14px;
+	background: #87A0B2;
+	padding: 10px 30px 10px 30px;
+	color: white;	
+}
+
+header{
+	background: url("fondo00.jpg");
+	height: 100vh;
+	background-size: cover;
+	
+}
+
+.contenedor {
+	max-width: 1280px;
+	width: 90%;
+	margin: auto;
+}
+
+/*section about me start*/
+
+h3{
+	text-align: center;
+	font-size: 55px;
+	font-weight: normal;
+}
+
+.contenedor-aboutme{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contenedor-p-a{
+	width: 42%;
+}
+
+.contenedor-p-a p{
+	font-size: 18px;
+}
+
+.contenedor-p-a a{
+	margin-top: 20px;
+	display: inline-block;
+}
+
+/*section service start*/
+
+.contenedor-servicio{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;}
+
+.service{ 
+	width: 26%;
+	padding: 40px 38px 40px 38px;
+	border-radius: 7px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+.lavander{
+	background: #857885; 
+}
+
+.rose{
+	background: #684A52;
+}
+
+.service h4 { 
+	font-size: 30px;
+	margin: 0;
+}
+
+.service img{
+	float: right;
+	margin-top: 20px;
+}
+
+
+.service p{
+	font-size: 18px;
+	height: 200px;
+}
+
+/*section my work start*/
+
+Span{
+	font-size: 80px;
+	color: #87A0B2;
+}
+
+.owl-nav{ 
+	text-align: center;
+}
+
+/*section wy work with me start*/
+
+.contenedor-wwwm{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	
+}
+
+.contenedor-wwwm h4{
+	
+	margin: 0;
+	font-size: 20px;
+}
+
+.contenedor-wwwm p{
+	
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.wwwm-singular{
+	
+	width: 28%;
+}
+
+/*section blog started*/
+
+#blog{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.contenedor-publicaciones{
+	display: flex;
+	justify-content: space-around;
+}
+
+.publicacion {
+	width: 30%;
+	box-shadow: 1px 1px 14px #ccc;
+	padding-bottom: 20px;
+}
+
+#blog img {
+	width: 100%;
+}
+
+#blog h4 {
+	font-size: 23px;
+	margin: 0px;
+	padding: 20px;
+}
+
+#blog p {
+	color: lightslategray; 
+	line-height: 24px;
+	font-size: 16px;
+	padding: 10px 20px 20px 20px;
+	margin: 0;
+}
+
+#blog a {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.publicacion-dos img {
+	height: 272px;
+}
+
+.segundo-parrado {
+	padding: 0px 20px 20px 20px !important;
+}
+
+/*section what are you waiting for start*/
+
+#waywf {
+	
+	background: linear-gradient(rgba(133,120,133,.94),rgba(104,74,104,.94));
+	text-align: center;
+	padding: 50px 0 50px 0;
+	color: white;
+}
+
+#waywf h3 {
+	
+	font-size: 23px;
+	color: white;
+	margin-bottom: 40px;
+}
+
+#waywf a {
+	
+	padding: 15px 45px 15px 45px;
+	transition: 1s;
+}
+
+#waywf a:hover {
+	color: #A4BEF3;
+	transition: 1s;
+	transform: scale(1.1);
+	display: inline-block;
+}
+
+/*section whatsapp*/
+
+#whatsapp a{
+	background: none;
+	position: fixed;
+	top: 85%;
+	right: 1%
+}
+
+
+@media (max-width: 800px){
+	/*only max widh 480px */
+	nav {
+		position: absolute;
+		top: 70px;
+		left: 0px;
+		background: #857885;
+		width: 100%;
+		display: none;
+	} 
+	
+	nav .list{
+		flex-direction: column;
+		display: flex;
+	}
+	
+	li{ 
+	 color: white;
+	}
+	
+	.menu-icon {
+		display: block;
+		width: 25px;
+	}
+	
+	.headline {
+		margin-top: 54px;
+	}
+	
+	h1{
+		font-size: 49px;
+	}
+	
+	h2 {
+		font-size: 19px;
+	}
+	
+	.contenedor-aboutme{
+		flex-direction: column;
+	}
+	
+	.contenedor-p-a {
+		width: 90%;
+	}
+	
+	.contenedor-servicio {
+		flex-direction: column;	
+	}
+	
+	.service{
+		width: 72%;
+		margin: auto;
+		margin-bottom: 15px;
+		
+	}
+	
+	.service p{
+		height: 100%;
+	}
+	
+	
+	
+	h3 {
+		font-size: 46px;
+	}
+	
+	.contenedor-wwwm{
+		flex-direction: column;
+	}
+	
+	.wwwm-singular{
+		width: 95%;
+	}
+	
+	.contenedor-publicaciones{
+		flex-direction: column;
+	}
+	
+	.publicacion{
+		width: 85%;
+		margin: auto;
+	}
+	
+	
+	
+	
+	}
+
+
+
+  @media (min-width:700px) and (max-width: 900px) {
+	header {
+		height: 53vh;
+	}
+	
+	.service {
+		width: 44%;
+	}
+	
+	.publicacion {
+		width: 62%;
+	}
+	  
+	  .service img{
+		  margin-top: 80px;
+	  }
+}
+
+
+.nav{
+ 
+}
